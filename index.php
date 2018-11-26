@@ -2,8 +2,8 @@
     <head>
     </head>
     <body>
-	<?php
-	echo "hec";
-	?>
+	<form action="register.php" >
+	    <input type="Submit" value="Jeg drikker kaffe!">
+	</form>
     </body>
 </html>
