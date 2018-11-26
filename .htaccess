@@ -1,3 +1,4 @@
 AuthType Basic
-AuthUserFile .htpasswd
+AuthName "Password Required"
+AuthUserFile "/web/folk/thorvalb/coffeeCount/.htpasswd"
 Require valid-user
