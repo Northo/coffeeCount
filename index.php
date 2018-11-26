@@ -5,6 +5,17 @@
 	     width: 500px;
 	     margin: 0 auto;
 	     text-align: center;
+	     width: 400px;
+	 }
+
+	 input[type="submit"] {
+	     height: 200px;
+	     background: red;
+	     border: 2px solid black;
+	     border-radius: 8px;
+	     color: white;
+	     font-family: "Big John", sans-serif;
+	     font-size: 25px;
 	 }
 	</style>
     </head>
