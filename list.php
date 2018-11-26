@@ -5,6 +5,7 @@
     $line = fgets($logFile);
     if ($line == ''){ continue; }
     list($user, $tmie) =  explode(' ', $line);
+    if ($user != $_SERVER['REMOTE_USER']) { continue; }
     $time = date("c", strtotime($time));
     echo  "<tr>\n\t<td>" . $user . "</td>\n\t<td>" . $time . "</td>\n</tr>\n";
 
