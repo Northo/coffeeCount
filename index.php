@@ -25,7 +25,12 @@
 	    $msg = $_GET['msg'];
 	    if ($msg) {
 		echo "<h2>" . $msg . "</h2>";
-	    }
+	      }
+
+	      $logFile = file('coffee_log.txt');
+	      $lastDrink = explode(' ', $logFile[count($logFile) - 1])[1];
+	      $lastDrink = date("H:i:s - M-d", $lastDrink);
+	      echo "Last drink: " . $lastDrink;
 	    ?>
 	    
 	    <form action="register.php" >
