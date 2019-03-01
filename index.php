@@ -36,6 +36,7 @@
 	    <form action="register.php" >
 		<input type="Submit" value="Jeg drikker kaffe!">
 	    </form>
+            <p><a href="list.php">Se liste over registreringer</a></p>
 	</div>
     </body>
 </html>
