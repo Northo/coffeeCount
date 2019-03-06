@@ -20,7 +20,8 @@
 	</style>
     </head>
     <body>
-	<div class="wrapper" >
+	    <div class="wrapper" >
+        <h1>Velkommen <?php echo $_SERVER['REMOTE_USER']; ?>!</h1>
 	    <?php
 	    $msg = $_GET['msg'];
 	    if ($msg) {
